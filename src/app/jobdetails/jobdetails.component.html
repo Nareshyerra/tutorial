@@ -1,0 +1,26 @@
+
+<a [routerLink]="['/']">HOME</a>
+<h1>list</h1>
+<ul>
+    <li *ngFor="let values of jobsdata">
+       {{ values.company }}
+    </li>
+</ul>
+
+
+<form #postingjob="ngForm" (ngSubmit)="postjob(postingjob.value)">
+    <label for="">Enter jobid</label>
+    <input type="text" name="id" placeholder="Enter jobid" ngModel>
+
+    
+    <input type="text" name="company" placeholder="Enter company" ngModel>
+
+    <input type="text" name="jobrole" placeholder="Enter jobrole" ngModel>
+
+    <input type="text" name="description" placeholder="Enter description" ngModel>
+    <input type="text" name="jobtype" placeholder="Enter jobtype" ngModel>
+
+<button>post</button>
+
+<h1 *ngIf="ismsg">Updated</h1>
+</form>

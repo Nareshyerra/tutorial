@@ -1,0 +1,39 @@
+{
+  "postjobs": [
+    {
+      "job id": "naresh",
+      "company": "softpath",
+      "Job Role": "",
+      "Description": "",
+      "Job type": ""
+    },
+    {
+      "id": "na",
+      "company": "exceed",
+      "jobrole": "dev",
+      "description": "python",
+      "jobtype": "full"
+    },
+    {
+      "id": "oK40Erd",
+      "company": "yiu",
+      "jobrole": "",
+      "description": "",
+      "jobtype": ""
+    },
+    {
+      "id": "XNaGIyY",
+      "company": "tata",
+      "jobrole": "",
+      "description": "",
+      "jobtype": ""
+    },
+    {
+      "id": "6yu-F_P",
+      "company": "hp",
+      "jobrole": "",
+      "description": "",
+      "jobtype": ""
+    }
+  ]
+}
